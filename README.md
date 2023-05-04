@@ -13,12 +13,9 @@ TA505 (Hive0065), a financially driven cybercrime group active since 2014, has p
 ### Capabilities:  
 
 TA505's main tools include Locky ransomware and SDBOT RAT as their primary tool, Cl0p ransomware, the FlawedAmmyy RAT (based on leaked source code from the legitimate Ammyy Admin tool), and banking trojans such as Dridex. 
-
 | TTPs                                                                                                                                | Use                                                                                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Technique T1566 – Phishing 
-
-https://attack.mitre.org/techniques/T1566/                                                             | Targeted enterprise employees in Europe with a spear phishing email impersonating One hub, a legitimate, cloud-based file-sharing application for businesses. |
+| Technique T1566 – Phishing                                                                                                          | Targeted enterprise employees in Europe with a spear phishing email impersonating One hub, a legitimate, cloud-based file-sharing application for businesses. |
 | Tactic - TA011: Command and control 
 
 Technique - T1071: Application layer Protocol 
@@ -33,7 +30,7 @@ Sub-Techniques T1562.001: Disable or modify Tools | TA505 has used malware to di
 | Software Packing                                                                                                                    |                                                                                                                                                               |
 | Dynamic link library injection                                                                                                      |                                                                                                                                                               |
 | Code Signing                                                                                                                        |                                                                                                                                                               |
-| Rundle 32                                                                                                   |                                                                                                                                                               |
+| Rundle 32                                                                                                                           |                                                                                                                                                               |
 | Deobfuscate/decode files or information                                                                                             |                                                                                                                                                               |
 | Command and scripting interpreter – PowerShell and windows command                                                                  |                                                                                                                                                               |
 ### Infrastructure 
