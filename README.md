@@ -14,6 +14,30 @@ TA505 (Hive0065), a financially driven cybercrime group active since 2014, has p
 
 TA505's main tools include Locky ransomware and SDBOT RAT as their primary tool, Cl0p ransomware, the FlawedAmmyy RAT (based on leaked source code from the legitimate Ammyy Admin tool), and banking trojans such as Dridex. 
 
+ Outer pipes  Cell padding 
+No sorting
+| TTPs                                                                                                                                | Use                                                                                                                                                           |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Technique T1566 – Phishing 
+
+https://attack.mitre.org/techniques/T1566/                                                             | Targeted enterprise employees in Europe with a spear phishing email impersonating One hub, a legitimate, cloud-based file-sharing application for businesses. |
+| Tactic - TA011: Command and control 
+
+Technique - T1071: Application layer Protocol 
+
+Sub technique - T1071.001                     | TA505 has used HTTP to communicate with C2 nodes.                                                                                                             |
+| Tactic: Native API: ID: T1106                                                                                                       | TA505 has deployed payloads that use Windows API calls on a compromised host                                                                                  |
+| Tactic: Ingress Tool Transfer [T1105](https://attack.mitre.org/techniques/T1105)                                                    | TA505 has downloaded additional malware to execute on victim systems                                                                                          |
+| Technique [T1562](https://attack.mitre.org/techniques/T1562/): Impair Defenses  
+
+Sub-Techniques T1562.001: Disable or modify Tools | TA505 has used malware to disable Windows Defender                                                                                                            |
+| Defensive evasion TA0005: Tactic: T1112: Modify Registry                                                                            | TA505 has used malware to disable Windows Defender through modification of the Registry                                                                       |
+| Software Packing                                                                                                                    |                                                                                                                                                               |
+| Dynamic link library injection                                                                                                      |                                                                                                                                                               |
+| Code Signing                                                                                                                        |                                                                                                                                                               |
+| Rundle 32                                                                                                                           |                                                                                                                                                               |
+| Deobfuscate/decode files or information                                                                                             |                                                                                                                                                               |
+| Command and scripting interpreter – PowerShell and windows command                                                                  |                                                                                                                                                               |
 
 ### Infrastructure 
 
