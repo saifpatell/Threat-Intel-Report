@@ -2,7 +2,9 @@
 
 ## Financial Industry Overview. 
 
-This report delivers an insightful analysis of emerging cyber threats targeting the finance industry, employing the Diamond Model of Intrusion Analysis to examine the tactics of a threat actor which typically operates within the sector. The Mitre ATT&CK framework is used to assess the actors' capabilities, tactics, and common software, generating a heatmap to prioritize techniques and shed light on the constantly evolving cyber threat landscape. Each layer is individually assessed, and the results are combined to generate a heatmap of the prioritized techniques employed by the threat actor in conjunction with the most frequently used software in the industry (See Appendix for Heatmap).  
+This report delivers an insightful analysis of emerging cyber threats targeting the finance industry, employing the Diamond Model of Intrusion Analysis to examine the tactics of a threat actor which typically operates within the sector. The Mitre ATT&CK framework is used to assess the actors' capabilities, tactics, and common software, generating a heatmap to prioritize techniques and shed light on the constantly evolving cyber threat landscape. Each layer is individually assessed, and the results are combined to generate a heatmap of the prioritized techniques employed by the threat actor in conjunction with the most frequently used software in the industry(See heatmap below). 
+
+![Heatmap](https://github.com/saifpatell/Threat-Intel-Report/blob/main/ATT%26CK%20Heatmap.png)
 
 ### Adversary: 
 
