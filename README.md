@@ -13,26 +13,7 @@ TA505 (Hive0065), a financially driven cybercrime group active since 2014, has p
 ### Capabilities:  
 
 TA505's main tools include Locky ransomware and SDBOT RAT as their primary tool, Cl0p ransomware, the FlawedAmmyy RAT (based on leaked source code from the legitimate Ammyy Admin tool), and banking trojans such as Dridex. 
-| TTPs                                                                                                                                | Use                                                                                                                                                           |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Technique T1566 – Phishing                                                                                                          | Targeted enterprise employees in Europe with a spear phishing email impersonating One hub, a legitimate, cloud-based file-sharing application for businesses. |
-| Tactic - TA011: Command and control 
 
-Technique - T1071: Application layer Protocol 
-
-Sub technique - T1071.001                     | TA505 has used HTTP to communicate with C2 nodes.                                                                                                             |
-| Tactic: Native API: ID: T1106                                                                                                       | TA505 has deployed payloads that use Windows API calls on a compromised host                                                                                  |
-| Tactic: Ingress Tool Transfer [T1105](https://attack.mitre.org/techniques/T1105)                                                    | TA505 has downloaded additional malware to execute on victim systems                                                                                          |
-| Technique [T1562](https://attack.mitre.org/techniques/T1562/): Impair Defenses  
-
-Sub-Techniques T1562.001: Disable or modify Tools | TA505 has used malware to disable Windows Defender                                                                                                            |
-| Defensive evasion TA0005: Tactic: T1112: Modify Registry                                                                            | TA505 has used malware to disable Windows Defender through modification of the Registry                                                                       |
-| Software Packing                                                                                                                    |                                                                                                                                                               |
-| Dynamic link library injection                                                                                                      |                                                                                                                                                               |
-| Code Signing                                                                                                                        |                                                                                                                                                               |
-| Rundle 32                                                                                                                           |                                                                                                                                                               |
-| Deobfuscate/decode files or information                                                                                             |                                                                                                                                                               |
-| Command and scripting interpreter – PowerShell and windows command                                                                  |                                                                                                                                                               |
 ### Infrastructure 
 
 - TA505 uses various infrastructure components to support their activities, such as command and control (C2) servers, email servers, and malware distribution networks. 
@@ -106,19 +87,22 @@ Filename
 
 ### Recommendations and Mitigation Strategies: 
 
- 
-
- 
-
- 
-
- 
-
- 
 
 ### Footnotes/References: 
 
 This report is based on publicly available information regarding the TA505 cybercrime group. 
 
+O'Donnell-Welch, Lindsey. "A Look Inside TA505's ServHelper Malware Control Panel." Decipher, 4 April 2019, https://duo.com/decipher/a-look-inside-ta505-s-servhelper-malware-control-panel. Accessed 4 May 2023.
 
+BlackBerry. "Ransomware Protection: How to Defend Against TA505 Threats." BlackBerry, n.d., https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/ta505. Accessed 4 May 2023.
+
+BlackBerry. "TA505 Continues to Infect Networks with SDBbot RAT." Security Intelligence, 23 October 2019, https://securityintelligence.com/posts/ta505-continues-to-infect-networks-with-sdbbot-rat/. Accessed 4 May 2023.
+
+Mitre Corporation. "MITRE ATT&CK®." MITRE ATT&CK, n.d., https://attack.mitre.org/. Accessed 4 May 2023.
+
+BlackBerry. "Threat Spotlight: Locky Ransomware." BlackBerry Blog, 14 November 2017, https://blogs.blackberry.com/en/2017/11/threat-spotlight-locky-ransomware. Accessed 4 May 2023.
+
+Salem, Eli. "Threat Actor TA505 Targets Financial Enterprises Using LOLBins and a New Backdoor Malware." Cybereason Blog, 6 May 2019, https://www.cybereason.com/blog/research/threat-actor-ta505-targets-financial-enterprises-using-lolbins-and-a-new-backdoor-malware. Accessed 4 May 2023.
+
+BlackBerry. "BlackBerry 2023 Threat Report: Securing the Modern Mobile Workforce." BlackBerry, 2023, https://www.blackberry.com/content/dam/bbcomv4/global/pdf/0408-Threat-ReportV17.pdf. Accessed 4 May 2023.
  
