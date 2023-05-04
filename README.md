@@ -14,8 +14,6 @@ TA505 (Hive0065), a financially driven cybercrime group active since 2014, has p
 
 TA505's main tools include Locky ransomware and SDBOT RAT as their primary tool, Cl0p ransomware, the FlawedAmmyy RAT (based on leaked source code from the legitimate Ammyy Admin tool), and banking trojans such as Dridex. 
 
- Outer pipes  Cell padding 
-No sorting
 | TTPs                                                                                                                                | Use                                                                                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Technique T1566 – Phishing 
@@ -37,7 +35,7 @@ Sub-Techniques T1562.001: Disable or modify Tools | TA505 has used malware to di
 | Code Signing                                                                                                                        |                                                                                                                                                               |
 | Rundle 32                                                                                                                           |                                                                                                                                                               |
 | Deobfuscate/decode files or information                                                                                             |                                                                                                                                                               |
-| Command and scripting interpreter – PowerShell and windows command                                                                  |                                                                                                                                                               |
+| Command and scripting interpreter – PowerShell and windows command                                                                  |                                                                                                                                                               |                                                                                                                              |
 
 ### Infrastructure 
 
