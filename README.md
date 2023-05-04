@@ -55,6 +55,22 @@ Final Redirection Hosting Malicious Document
 
 - https://dl1.sync-share[.]com?Or2at 
 
+Filename
+
+| File name          | SHA1                                     | Description               |
+| ------------------ | ---------------------------------------- | ------------------------- |
+| main_template.docx | 33094acd614825a916b77df6c5141c088fc3768b | Malicious document        |
+| vspub1.dll         | bf0f7abda2228059bb00ec9658ee447fbe84d277 | CobaltStrike similarities |
+| vspub2.dll         | d40510da42a478d72e649993208710668a7f6c27 | CobaltStrike similarities |
+| xrjkrobuy.dll      | 14f52ae68344e1643b3066c10f7044fdd819db4e | SDBot RAT                 |
+| upywloeza.dll      | 0cc7cca16afd632857e3883c06b2f55c057b563e | SDBot RAT                 |
+| dtzvlbtxn.dll      | d36e983886a084887f887c6d562d3bc0664587c4 | SDBot RAT                 |
+| lvgoywrnxwy.dll    | fea7d944e317c7b2ef1aba57600a8c5310368085 | SDBot RAT                 |
+| qcuqqgxmy.dll      | 35423e04e58ab1f2267e19c47e1c69ea5b7041cc | SDBot RAT                 |
+| pdxqzmftr.dll      | fd9620c0c295caaee3096423532bb1dbfb7064c5 | SDBot RAT                 |
+| lowpro3.13.exe     | cb0b39534d99057b02b090c3650fb1de43d19a02 | Binary                    |
+| wsus.exe           | caff1d315a5d87014e5fa62346f58407755d971e | Meterpreter stager        |
+| FakeL.exe          | 45c43ec18d15ba7850e6ad2e2e54671636f4d926 | Password Stealer          |
 
 #### Indicators of Compromise (IoCs) - Locky Ransomware 
 
