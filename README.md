@@ -1,4 +1,3 @@
-# Threat-Intel-Report
 # Threat Intelligence Report: TA505 Cybercrime Group 
 
 ## Financial Industry Overview. 
